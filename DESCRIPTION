@@ -1,0 +1,14 @@
+Package: wiotrs
+Title: Global input-output data analysis
+Version: 0.1
+Authors@R: person("Dariusz", "Œciga³a", email = "dariusz.scigala@world.pl", role = c("aut", "cre"))
+Description: The package wiotrs is a set of tools for analysis of global input-output data.
+    It allows for decomposition of value added by sectors and countries. 
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    repmis
+RoxygenNote: 6.1.0
+Suggests: testthat
